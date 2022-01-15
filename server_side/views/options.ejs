@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link href="css/options.css" rel="stylesheet">
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script src="js/options.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>
+            Rock, Paper, Scissors
+        </h1>
+    </header>
+    
+    <div>
+        <h2>
+            Options
+        </h2>
+    </div>
+
+    <div class="button-choices">
+        <a href="/computer"> <button type="submit" onclick="handleSubmit_singlePlayer()" id="single-player">Single Player</button> </a>
+        <a href="/room"> <button type="submit" onclick="handleSubmit_create_room()" id="multi-player">Create a room</button> </a>
+        <a href="/waitingRoom"> <button type="submit" onclick="handleSubmit_create_room()" id="create-room">Play with a random player</button> </a>
+    </div>
+    <div class="input-container">
+        <p id="message">Enter an extension (e.g multiplayer-af40d0c1-2226-439e-838e-a48df3f5bb00) to join an existing room</p>
+        <div><input id="url" type="text" name="Extension" placeholder="Enter url" required></div>
+        <div><a href="/joinRoom"> <button type = "submit" onclick="handleSubmit_join_room()" id = "join-room">Join room</button></a></div>
+    </div>
+</body>
+</html>

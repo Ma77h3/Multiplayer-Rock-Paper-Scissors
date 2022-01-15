@@ -1,0 +1,38 @@
+
+.wrapper-loader{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    opacity: 0;
+    display: none;
+    margin-top: 20%;
+}
+.wrapper-loader > div{
+    text-align: right;
+    padding: 10px;
+}
+
+.loading-message{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: white;
+}
+.loader{
+    border: 16px solid lightgray;
+    border-top: 16px solid lime;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}

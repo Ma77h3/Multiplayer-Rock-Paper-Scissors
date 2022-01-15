@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #25272E;
+}
+
+header {
+    background: white;
+    padding: 20px;
+
+}
+
+header > h1 {
+    color: #25272E;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.User-input{
+    display: flex;
+    flex-direction: column;
+    margin: 15% auto;
+    border: 3px solid black;
+    background: white;
+    width: 600px;
+    text-align: center;
+
+}
+
+.User-input > input{
+    height: 100px;
+    width: 80%;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    float: right;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+}
+
+.User-input > a > button{
+    border: 4px solid black;
+    padding-top: 10px;
+    height: 40px;
+    width: 80%;
+    align-self: center;
+    background: #292828;
+    color: white;
+    margin-bottom: 20px;
+    transition: all;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.User-input > input[type="text"]::placeholder{
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.User-input > button:hover{
+    cursor: pointer;
+    padding-top: 0;
+    background: black;
+
+}

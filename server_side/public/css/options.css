@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: #25272E;
+    min-height: 100vh;
+}
+
+header{
+    background: white;
+    padding: 20px;
+}
+
+header > h1{
+    color: #25272E;
+    text-align: center;
+}
+
+div > h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+div > a {
+    border: 1px solid white;
+    height: 100px;
+}
+
+.button-choices{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.button-choices > a > button {
+    width: 100%;
+    height: 100%;
+}
+
+.input-container{
+    margin: 5%;
+    display:grid;
+    grid-template-rows: auto auto auto;
+}
+
+.input-container > p{
+    color: white;
+    text-align: center;
+}
+
+.input-container > div{
+    border: 1px solid white;
+    height: 100px;
+    text-align: center;
+    padding: 20 10;
+}
+
+#url{
+    width: 80%;
+    height: 100%;
+}
+
+.input-container > div > a > button {
+    width: 100%;
+    height: 100%;
+}
+
+.input-container> div > input[type="text"]::placeholder{
+    text-align: center;
+    font-size: 40px;
+}
+
+.input-container> div > input {
+    text-align: center;
+    font-size: 40px;
+}
