@@ -254,25 +254,6 @@ io.on('connection', socket => {
     })
 })
 
-/* What I am going to do later,
-I will update the storage variable in the client everytime and I will check and see if there is any sessionStorage
-I will also reset the value of storage everytime to zero just incase I do not get the message --> completed*/ 
 
-/* What I am going to do later
-HAHAHA, now it is the fun part, multiplayer baby, figure out how to create a room with a unique id and how to make sure that the users
-see each other  */
-
-/* What I was thinking to do the last time:
-create a variable called multiplayer to check the authencity of the multiplayer room
-create a socket from clien to server that will change the value of multiplayer to 1 using an onclick function like last time
-
-remeber to add the default meaning that if they say /multiplayeradssdss or anything that it takes them there only if they have logged in
-otherwise redirect them to the home page*/
-
-
-/*  holy fuck, i think i might be a genius, make the button send to a new /queue, then create a room and then add it to a dictionary
-with the person's id, if a second person queue's, make sure that they check in the dictionary and see if they redirect to that url,
-
-we still have to figure how to send the user info and the logic behind the game*/
 
 
